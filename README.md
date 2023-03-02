@@ -1,9 +1,7 @@
 # nd1
-network diagram using slack API
+This code creates a social network diagram using 1-1 Direct Messages in a Slack Workspace. 
 
-This first queries Slack to generate all 1-1 DMS.
-Then it filters for only those with messages in the last 60 days.
-Then it saves participants as pairs of users in a list of pairs. 
+Nodes are individuals. 
+Edges are if they have a 1-1 message within the last sixty days. 
 
-That list is used to generate a network model via networkx. 
-Which is then visualized in matplotlib. 
+You can opt to anonymize this by substituting names with relevant information from your database, such as position, department, or employee ID.
