@@ -8,7 +8,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # Initialize a WebClient using the Slack API token
-client = WebClient(token="xoxp-4722272326211-4746079437552-4735141885857-60d03e26d00030111a3e8a54542199e9")
+client = WebClient(token=os.environ("slackadmin"))
 
 try:
 
